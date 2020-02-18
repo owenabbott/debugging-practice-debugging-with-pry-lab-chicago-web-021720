@@ -6,8 +6,12 @@ end
 
 def prompt_user
   puts "What would you like to do?"
+  answer=get_user_input
+  if answer==1
   puts "1.) Eat a hamburger."
+  elsif answer==2
   puts "2.) Eat a ham."
+end
 end
 
 def selection(num)
